@@ -1,0 +1,14 @@
+{% load staticfiles %}
+<html>
+<head>
+    <script data-main="{% static "js/app" %}" src="{% static "js/libs/require.js" %}"></script>
+    <!--script src="{% static "js/libs/require.js"></script>
+    <script src="{% static "js/libs/main-built.js"></script-->
+
+    <title>{% block title %}Title{% endblock %}</title>
+</head>
+<body>
+    {% block body %}
+    {% endblock body %}
+</body>
+</html>
