@@ -24,4 +24,4 @@ Better use virtualenv with virtualenvwrapper
 
 Run in development mode
 
-> python manage.py runserver --settings=playground.settings.local
+> python manage.py runserver --settings=app.settings.local
