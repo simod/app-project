@@ -1,2 +1,2 @@
-require ['jquery','ember', 'handlebars'], ($, EM, HB) ->
+require ['jquery','handlebars','ember'], ($, HB, EM) ->
     console.log('App started.')

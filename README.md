@@ -20,6 +20,7 @@ Better use virtualenv with virtualenvwrapper
 > sudo npm install -g coffee-script
 
 > pip install -r requirements/base.txt
+
 > pip install -r requirements/local.txt (for development)
 
 Run in development mode
